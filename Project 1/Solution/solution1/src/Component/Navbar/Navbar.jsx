@@ -6,17 +6,17 @@ function Navbar(){
     return(
         <nav className = {style.navbar}>
         <div className = {style.left}>
-            <img src={logo} alt = "logo"/>
+            <img className = {style.icons} src={logo} alt = "logo"/>
         </div>
         <div className = {style.middle}>
-            <button>Ticket</button>
-            <button>New Ticket</button>
-            <button>Reports</button>
+            <button className = {style.btn}>Ticket</button>
+            <button className = {style.btn}>New Ticket</button>
+            <button className = {style.btn}>Reports</button>
         </div>
 
         <div className = {style.right}>
-            <button>Login</button>
-            <img src = {hamburger} alt = "hamburger"/>
+            <button className = {style.btn}>Login</button>
+            <img className = {style.iconshidden} src = {hamburger} alt = "hamburger"/>
         </div>
 
         </nav>
